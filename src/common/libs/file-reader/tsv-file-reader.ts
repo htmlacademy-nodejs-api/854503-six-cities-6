@@ -1,9 +1,9 @@
 import { readFileSync } from 'node:fs';
 import { IFileReader } from './file-reader.interface.js';
-import { Offer } from '../typings/offer-type.js';
-import { HousingType } from '../typings/housing-type.enum.js';
-import { FeaturesType } from '../typings/features-type.enum.js';
-import { UserType } from '../typings/user-type.enum.js';
+import { Offer } from '../../typings/offer-type.js';
+import { HousingType } from '../../typings/housing-type.enum.js';
+import { FeaturesType } from '../../typings/features-type.enum.js';
+import { UserType } from '../../typings/user-type.enum.js';
 
 export class TSVFileReader implements IFileReader {
   private rawData = '';
