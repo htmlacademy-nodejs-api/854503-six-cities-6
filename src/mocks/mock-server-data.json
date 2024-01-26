@@ -49,6 +49,10 @@
       "http://avatar4.jpg",
       "http://avatar5.jpg"
     ],
+    "userTypes": [
+      "Pro",
+      "Regular"
+    ],
     "postDates": [
       "2023-09-06T08:45:40.283Z",
       "2023-09-06T09:15:20.123Z",
@@ -56,20 +60,20 @@
       "2023-09-07T12:45:30.762Z",
       "2023-09-07T14:20:55.901Z"
     ],
-    "cities": ["Paris", "Hamburg", "New York", "Malibu", "Cotswolds"],
-    "isPremium": [true, false, true, true, false],
-    "isFavorite": [false, true, false, true, true],
+    "cities": ["Paris", "Hamburg", "Amsterdam", "Dusseldorf", "Brussels"],
+    "isPremium": [true, false],
+    "isFavorite": [true, false],
     "ratings": [4.5, 4.2, 4.8, 4.9, 4.0],
-    "housingTypes": ["Apartment", "House", "Studio", "Villa", "Cottage"],
+    "housingTypes": ["Apartment", "House", "Room", "Hotel"],
     "roomAmounts": [3, 4, 1, 5, 2],
     "guestAmounts": [6, 8, 2, 10, 4],
     "rentPrices": [250, 500, 120, 800, 150],
     "features": [
       ["Breakfast", "Air conditioning", "Laptop friendly workspace"],
       ["Air conditioning", "Washer", "Towels", "Fridge"],
-      ["Wi-Fi", "Heating", "Kitchenette"],
-      ["Private beach", "Pool", "Garden"],
-      ["Fireplace", "Garden view", "Pet-friendly"]
+      ["Towels", "Air conditioning", "Baby seat"],
+      ["Towels", "Fridge", "Laptop friendly workspace"],
+      ["Washer", "Baby seat", "Breakfast"]
     ],
     "commentsAmounts": [25, 15, 30, 10, 20],
     "coordinates": [

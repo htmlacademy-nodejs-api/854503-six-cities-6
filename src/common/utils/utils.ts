@@ -16,3 +16,7 @@ export function getRandomItems<T>(items: T[]): T[] {
 export function getErrorMassage(error: unknown): string {
   return error instanceof Error ? error.message : error as string;
 }
+
+export function getRandomPassword(): string {
+  return new Array(getRandomInteger(2, 5)).fill(getRandomInteger(0, 100)).join('');
+}

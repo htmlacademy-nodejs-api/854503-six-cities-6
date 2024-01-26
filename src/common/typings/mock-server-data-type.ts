@@ -1,3 +1,6 @@
+
+type Features = string[];
+
 export type MockServerData = {
   titles: string[],
   descriptions: string[],
@@ -6,6 +9,7 @@ export type MockServerData = {
   users: string[],
   emails: string[],
   avatars: string[],
+  userTypes: string[],
   postDates: string[],
   cities: string[],
   isPremium: string[],
@@ -15,7 +19,7 @@ export type MockServerData = {
   roomAmounts: string[],
   guestAmounts: string[],
   rentPrices: string[],
-  features: string[],
+  features: Features[],
   commentsAmounts: string[],
   coordinates: string[],
 }
